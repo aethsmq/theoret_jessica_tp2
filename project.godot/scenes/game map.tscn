@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://bl2vk847q8ix1"]
+[gd_scene load_steps=8 format=4 uid="uid://bl2vk847q8ix1"]
 
 [ext_resource type="Texture2D" uid="uid://bpnptib447tn2" path="res://assets/background/space background.webp" id="1_2c627"]
 [ext_resource type="Texture2D" uid="uid://cigpu5rc26yhm" path="res://assets/spritesheets/omorispritesheet background.png" id="2_2c627"]
@@ -1313,14 +1313,11 @@ texture_region_size = Vector2i(32, 32)
 [sub_resource type="TileSet" id="TileSet_2c627"]
 sources/0 = SubResource("TileSetAtlasSource_nduwo")
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_nduwo"]
-distance = -64.0
-
 [node name="game map" type="Node2D"]
 
 [node name="SpaceBackground" type="Sprite2D" parent="."]
-position = Vector2(572, 320)
-scale = Vector2(0.446875, 0.444444)
+position = Vector2(576, 324)
+scale = Vector2(0.45, 0.45)
 texture = ExtResource("1_2c627")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
@@ -1333,10 +1330,3 @@ tile_set = SubResource("TileSet_2c627")
 
 [node name="player" parent="." instance=ExtResource("2_nduwo")]
 position = Vector2(600, 448)
-
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(520, 400)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(80, 0)
-shape = SubResource("WorldBoundaryShape2D_nduwo")

@@ -112,8 +112,10 @@ radius = 8.0
 script = ExtResource("1_a8ls1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1.19209e-06, -2.38419e-07)
+scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_l71n6")
-animation = &"right"
+animation = &"back"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
