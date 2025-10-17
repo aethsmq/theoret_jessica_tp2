@@ -1,1 +1,5 @@
-all credits to omori!
+welcome to the neighboor's house!
+
+un mini-jeu pour collecter des cadeaux dans la zone!
+
+pour le pixel art ---> all credits to omori!
