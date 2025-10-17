@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://bl2vk847q8ix1"]
+[gd_scene load_steps=14 format=4 uid="uid://bl2vk847q8ix1"]
 
 [ext_resource type="Texture2D" uid="uid://bpnptib447tn2" path="res://assets/background/space background.webp" id="1_2c627"]
 [ext_resource type="Script" uid="uid://da0vph7f78121" path="res://scripts/game_map.gd" id="1_kemja"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dic0bjs576scd" path="res://scenes/powerup.tscn" id="5_1bdoo"]
 [ext_resource type="Script" uid="uid://dri7736cya1jw" path="res://scripts/audio_stream_player_2d.gd" id="6_yeq10"]
 [ext_resource type="PackedScene" uid="uid://b71vrjpvna53m" path="res://scenes/television.tscn" id="7_ipowb"]
+[ext_resource type="Script" uid="uid://bxd8f34hd8i4i" path="res://scripts/game_manager.gd" id="9_drbt1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aboh2"]
 texture = ExtResource("2_2c627")
@@ -1446,3 +1447,13 @@ position = Vector2(560, 576)
 
 [node name="powerup15" parent="." instance=ExtResource("5_1bdoo")]
 position = Vector2(504, 368)
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("9_drbt1")
+
+[node name="ScoreLabel" type="Label" parent="GameManager"]
+offset_left = 832.0
+offset_top = 152.0
+offset_right = 872.0
+offset_bottom = 175.0
