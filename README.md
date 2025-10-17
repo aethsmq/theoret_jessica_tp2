@@ -3,7 +3,7 @@
 
 un mini-jeu pour collecter des cadeaux dans la zone!
 
-references: 
+ref vidéo: 
 https://youtu.be/kw1iI69kW6o?si=VLZkRkKxSc56X2cM
 
 https://youtu.be/B_y0oJMRjSs?si=9xghrKchXJjy92d9
