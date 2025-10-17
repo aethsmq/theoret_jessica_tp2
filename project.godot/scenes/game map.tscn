@@ -1425,3 +1425,24 @@ position = Vector2(728, 464)
 
 [node name="television" parent="." instance=ExtResource("7_ipowb")]
 position = Vector2(760, 552)
+
+[node name="powerup9" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(656, 408)
+
+[node name="powerup10" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(544, 512)
+
+[node name="powerup11" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(728, 240)
+
+[node name="powerup12" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(728, 336)
+
+[node name="powerup13" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(360, 456)
+
+[node name="powerup14" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(560, 576)
+
+[node name="powerup15" parent="." instance=ExtResource("5_1bdoo")]
+position = Vector2(504, 368)
