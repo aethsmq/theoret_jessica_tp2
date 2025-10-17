@@ -1389,10 +1389,10 @@ script = ExtResource("6_yeq10")
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(376, 408, 376, 464, 472, 464, 472, 408)
+polygon = PackedVector2Array(376, 400, 376, 464, 472, 464, 472, 400)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(696, 352, 696, 136, 760, 136, 760, 312, 792, 312, 792, 592, 344, 592, 344, 312, 384, 312, 384, 352, 432, 352, 432, 312, 584, 312, 672, 312, 680, 320, 696, 352, 696, 352, 680, 240, 664, 136, 640, 136, 336, 136, 328, 464, 328, 616, 808, 616, 808, 320, 808, 168, 768, 120, 720, 120, 680, 128)
+polygon = PackedVector2Array(696, 352, 696, 136, 760, 136, 760, 352, 768, 312, 792, 312, 792, 592, 344, 592, 344, 296, 384, 296, 384, 352, 432, 352, 432, 296, 584, 296, 672, 296, 680, 312, 696, 352, 696, 352, 680, 240, 664, 136, 640, 136, 336, 136, 328, 464, 328, 616, 808, 616, 808, 320, 808, 168, 768, 120, 720, 120, 680, 128)
 
 [node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2(-9.01682, 9.15527e-05)
